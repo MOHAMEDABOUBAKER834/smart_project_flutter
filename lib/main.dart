@@ -527,8 +527,7 @@ class ConnectScreen extends StatelessWidget {
             'BLE Device Scanner',
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
-          const SizedBox(height: 10),
-          const Text(
+           const Text(
             'Scanning for nearby BLE devices...',
             style: TextStyle(color: Colors.grey),
           ),
